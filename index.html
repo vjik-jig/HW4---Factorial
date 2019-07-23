@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Factorial</title>
+  </head>
+  <body>
+    <script>
+      function getFactorial(keyNumber) {
+        var num1 = 0;
+        var finalCount = 1;
+        for (var i = 1; i <= keyNumber; i++) {
+          num1 = num1 + 1;
+          finalCount *= num1;
+        }
+        return finalCount;
+      }
+      console.log(getFactorial(8)); // Вводим число сюда
+    </script>
+  </body>
+</html>
